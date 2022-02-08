@@ -588,10 +588,14 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: rgb(0, 0, 0);
+        background: #fff;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
+        
+    }
+    .navbar .menu-btn{
+        color: #111;
     }
     .navbar .menu.active{
         left: 0;
@@ -603,6 +607,9 @@ footer span a:hover{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+    }
+    .navbar.menu :hover{
+        color:#BD4B4B;
     }
     .home .home-content .text-2{
         font-size: 70px;
@@ -628,10 +635,7 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-    }
+    
     .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
